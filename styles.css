@@ -150,21 +150,6 @@ p {
   stroke-width: 3;
 }
 
-.chicken .tshirt {
-  fill: #ff6b8a;
-  stroke: #d94452;
-  stroke-width: 2;
-}
-
-.chicken .tshirt-letter {
-  fill: #ffffff;
-  font-family: "Playfair Display", serif;
-  font-size: 36px;
-  font-weight: 700;
-  text-anchor: middle;
-  dominant-baseline: middle;
-}
-
 .chicken .eye-white {
   fill: #ffffff;
   stroke: #3b2b2b;
