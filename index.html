@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For You</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Manrope:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="intro section">
+        <div class="intro-text">
+          <p class="type-line" aria-live="polite">Satvik is a Chicken</p>
+          <p class="subline type-line">Chicken's purpose is to make you smile</p>
+        </div>
+        <div class="intro-visual" data-parallax="0.4">
+          <svg
+            class="chicken"
+            viewBox="0 0 200 200"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-label="Cute chicken"
+            role="img"
+          >
+            <!-- Body -->
+            <ellipse cx="100" cy="130" rx="65" ry="55" class="body" />
+            <!-- T-shirt -->
+            <path d="M45 110 Q50 95, 100 100 Q150 95, 155 110 L155 170 Q100 180, 45 170 Z" class="tshirt" />
+            <text x="100" y="145" class="tshirt-letter">P</text>
+            <!-- Head -->
+            <circle cx="100" cy="70" r="45" class="body" />
+            <!-- Comb -->
+            <ellipse cx="80" cy="30" rx="8" ry="12" class="comb" />
+            <ellipse cx="100" cy="26" rx="10" ry="14" class="comb" />
+            <ellipse cx="120" cy="30" rx="8" ry="12" class="comb" />
+            <!-- Big eyes -->
+            <ellipse cx="80" cy="65" rx="14" ry="16" class="eye-white" />
+            <ellipse cx="120" cy="65" rx="14" ry="16" class="eye-white" />
+            <circle cx="83" cy="67" r="8" class="eye-pupil" />
+            <circle cx="123" cy="67" r="8" class="eye-pupil" />
+            <circle cx="86" cy="63" r="3" class="eye-sparkle" />
+            <circle cx="126" cy="63" r="3" class="eye-sparkle" />
+            <!-- Rosy cheeks -->
+            <ellipse cx="55" cy="80" rx="12" ry="8" class="cheek" />
+            <ellipse cx="145" cy="80" rx="12" ry="8" class="cheek" />
+            <!-- Beak -->
+            <ellipse cx="100" cy="90" rx="10" ry="6" class="beak" />
+            <ellipse cx="100" cy="85" rx="6" ry="4" class="beak-top" />
+            <!-- Smile -->
+            <path d="M88 98 Q100 110, 112 98" class="smile" />
+            <!-- Wings -->
+            <ellipse cx="45" cy="130" rx="18" ry="30" class="wing" />
+            <ellipse cx="155" cy="130" rx="18" ry="30" class="wing" />
+            <!-- Feet -->
+            <path d="M75 180 L70 195 M75 180 L75 195 M75 180 L80 195" class="feet" />
+            <path d="M125 180 L120 195 M125 180 L125 195 M125 180 L130 195" class="feet" />
+          </svg>
+        </div>
+        <div class="scroll-hint">
+          <span class="scroll-hint__label sr-only">Scroll to continue</span>
+          <span class="scroll-hint__chevron"></span>
+          <span class="scroll-hint__chevron"></span>
+        </div>
+      </section>
+
+      <section class="chapter section reveal">
+        <div class="content">
+          <p class="type-line">Chicken feels accepted, loved and unfiltered (veryy rare for chickens)</p>
+          <p class="type-line">Chicken can make sense of bollywood songs now and he pictures you AAAALLLLLLLLLL the time</p>
+          <div class="song-card">
+            <div class="song-info">
+              <p class="song-title">Saiyyan</p>
+              <button class="play-button" type="button" data-play>
+                Play
+              </button>
+              <audio data-audio preload="none">
+                <source src="assets/Saiyyan 7.mp3" type="audio/mpeg" />
+              </audio>
+            </div>
+          </div>
+        </div>
+        <div class="chapter-visual">
+          <svg
+            class="chicken"
+            viewBox="0 0 230 200"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-label="Smiling chicken with bouquet"
+            role="img"
+          >
+            <!-- Body -->
+            <ellipse cx="100" cy="130" rx="65" ry="55" class="body" />
+            <!-- T-shirt -->
+            <path d="M45 110 Q50 95, 100 100 Q150 95, 155 110 L155 170 Q100 180, 45 170 Z" class="tshirt" />
+            <text x="100" y="145" class="tshirt-letter">P</text>
+            <!-- Head -->
+            <circle cx="100" cy="70" r="45" class="body" />
+            <!-- Comb -->
+            <ellipse cx="80" cy="30" rx="8" ry="12" class="comb" />
+            <ellipse cx="100" cy="26" rx="10" ry="14" class="comb" />
+            <ellipse cx="120" cy="30" rx="8" ry="12" class="comb" />
+            <!-- Big eyes - happy closed -->
+            <path d="M68 65 Q80 55, 92 65" class="happy-eye" />
+            <path d="M108 65 Q120 55, 132 65" class="happy-eye" />
+            <!-- Rosy cheeks -->
+            <ellipse cx="55" cy="80" rx="12" ry="8" class="cheek" />
+            <ellipse cx="145" cy="80" rx="12" ry="8" class="cheek" />
+            <!-- Beak -->
+            <ellipse cx="100" cy="90" rx="10" ry="6" class="beak" />
+            <ellipse cx="100" cy="85" rx="6" ry="4" class="beak-top" />
+            <!-- Smile -->
+            <path d="M85 100 Q100 115, 115 100" class="smile" />
+            <!-- Wings -->
+            <ellipse cx="45" cy="130" rx="18" ry="30" class="wing" />
+            <!-- Right wing holding bouquet -->
+            <ellipse cx="155" cy="135" rx="22" ry="28" class="wing" />
+            <!-- Bouquet -->
+            <g class="bouquet">
+              <path d="M170 160 L165 110" class="stem" />
+              <path d="M170 160 L180 105" class="stem" />
+              <path d="M170 160 L195 115" class="stem" />
+              <path d="M170 160 L205 130" class="stem" />
+              <circle cx="165" cy="100" r="18" class="flower f1" />
+              <circle cx="182" cy="95" r="16" class="flower f2" />
+              <circle cx="198" cy="105" r="14" class="flower f3" />
+              <circle cx="208" cy="122" r="12" class="flower f1" />
+              <circle cx="175" cy="115" r="10" class="flower f2" />
+            </g>
+            <!-- Feet -->
+            <path d="M75 180 L70 195 M75 180 L75 195 M75 180 L80 195" class="feet" />
+            <path d="M125 180 L120 195 M125 180 L125 195 M125 180 L130 195" class="feet" />
+          </svg>
+        </div>
+        <div class="scroll-hint">
+          <span class="scroll-hint__label sr-only">Scroll to continue</span>
+          <span class="scroll-hint__chevron"></span>
+          <span class="scroll-hint__chevron"></span>
+        </div>
+      </section>
+
+      <section class="ocean section reveal">
+        <div class="content">
+          <p class="type-line">You are truly egg-straordinary.</p>
+          <p class="type-line">In a world full of 'fowl' play, you’re the most hen-uine person I know.</p>
+          <p class="type-line">Your style is truly im-peck-able.</p>
+          <p class="type-line">You’re the most genuine bird in the flock; no 'peck-pocrisy' here!</p>
+          <p class="type-line">Long story short, I can't just peck out a few reasons why I adore you. It’s a whole flock of feelings that I can’t even compre-hen-d!
+          </p>
+        </div>
+        <div class="ocean-visual">
+          <svg
+            class="chicken"
+            viewBox="0 0 200 200"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-label="Chicken with heart"
+            role="img"
+          >
+            <!-- Body -->
+            <ellipse cx="100" cy="130" rx="65" ry="55" class="body" />
+            <!-- T-shirt -->
+            <path d="M45 110 Q50 95, 100 100 Q150 95, 155 110 L155 170 Q100 180, 45 170 Z" class="tshirt" />
+            <text x="100" y="145" class="tshirt-letter">P</text>
+            <!-- Head -->
+            <circle cx="100" cy="70" r="45" class="body" />
+            <!-- Comb -->
+            <ellipse cx="80" cy="30" rx="8" ry="12" class="comb" />
+            <ellipse cx="100" cy="26" rx="10" ry="14" class="comb" />
+            <ellipse cx="120" cy="30" rx="8" ry="12" class="comb" />
+            <!-- Big eyes with love -->
+            <ellipse cx="80" cy="65" rx="14" ry="16" class="eye-white" />
+            <ellipse cx="120" cy="65" rx="14" ry="16" class="eye-white" />
+            <!-- Heart eyes -->
+            <path d="M74 67 C74 62, 80 60, 80 65 C80 60, 86 62, 86 67 L80 75 Z" class="heart-eye" />
+            <path d="M114 67 C114 62, 120 60, 120 65 C120 60, 126 62, 126 67 L120 75 Z" class="heart-eye" />
+            <!-- Rosy cheeks -->
+            <ellipse cx="55" cy="80" rx="12" ry="8" class="cheek" />
+            <ellipse cx="145" cy="80" rx="12" ry="8" class="cheek" />
+            <!-- Beak -->
+            <ellipse cx="100" cy="90" rx="10" ry="6" class="beak" />
+            <ellipse cx="100" cy="85" rx="6" ry="4" class="beak-top" />
+            <!-- Big smile -->
+            <path d="M82 100 Q100 120, 118 100" class="smile" />
+            <!-- Wings up celebrating -->
+            <ellipse cx="40" cy="110" rx="18" ry="30" transform="rotate(-20 40 110)" class="wing" />
+            <ellipse cx="160" cy="110" rx="18" ry="30" transform="rotate(20 160 110)" class="wing" />
+            <!-- Feet -->
+            <path d="M75 180 L70 195 M75 180 L75 195 M75 180 L80 195" class="feet" />
+            <path d="M125 180 L120 195 M125 180 L125 195 M125 180 L130 195" class="feet" />
+          </svg>
+        </div>
+        <div class="scroll-hint">
+          <span class="scroll-hint__label sr-only">Scroll to continue</span>
+          <span class="scroll-hint__chevron"></span>
+          <span class="scroll-hint__chevron"></span>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
